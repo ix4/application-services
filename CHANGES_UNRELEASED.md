@@ -15,4 +15,13 @@
 ### What's new
 
 - `LoginsStorage.getByBaseDomain` has been added ([#2152](https://github.com/mozilla/application-services/issues/2152))
+
+## Logins
+
+### What's new
+
+- Added ability to rekey the database via `rekeyDatabase`. [[#2228](https://github.com/mozilla/application-services/pull/2228)]
+
+[Full Changelog](https://github.com/mozilla/application-services/compare/v0.43.1...master)
+
 - Removed hard deletion of `SyncStatus::New` records in `delete` and `wipe` logins database functions. ([#2362](https://github.com/mozilla/application-services/pull/2362))
